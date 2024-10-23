@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Functions in javaScript </title>
+</head>
+<body>
+
+    <input type="number" value="" id="a">
+    <input type="number" value="" id="b">
+    <button onclick="add()"> Add </button>
+    <h2 id="result"></h2>
+
+    <script>
+        // let a = document.getElementById("a");
+        // let b = document.getElementById("b");
+        function add(){
+            let a = parseInt(document.getElementById("a").value);
+            let b = parseInt(document.getElementById("b").value);
+            let sum = a+b;
+            result = document.getElementById("result").innerHTML=sum;
+        }
+    </script>
+</body>
+</html>

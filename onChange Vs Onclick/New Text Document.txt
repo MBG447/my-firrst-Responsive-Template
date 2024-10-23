@@ -1,0 +1,73 @@
+https://www.youtube.com/watch?v=arFGW0a6PeQ&list=PLz48c8Mypd1_fzXn95bozNcFZLYWs1v2K&index=33
+JS lectures the above link
+
+
+
+
+
+Ctrl+shift+i    command is used for direct open the console prompt
+ 
+apny code ke execution browser pr show krwany k leya hum un methods k use kr k apny code ke output show krwa sakty hain 
+1) innerHTML
+2) document.write()
+3) window.alert()
+4) console.log()     console 1 object h aur .log us k method h
+
+operators
+=== us k mtlb h k 1 to ya equal check krta h dosra us k 7 hi us ke data type be check krta h 
+example: (1) 5 === 5   = true  (dono ke data type integer h us leya true h aur dono numbers hain)
+         (2) 5 === "5" = false (1 ke integer h dosry ke string h us leya false aya)
+
+types of function
+1) built in functions
+2) user defined functions
+
+Return Statement
+
+
+Object: Example
+let laptop = {
+            color : "Black",  
+            fulldetail : function(){
+            return "Full-detail of a function: " + this.name + "<br> Genration: " + this.genration;
+        }
+        }
+        document.write(laptop.fulldetail()); us ko hum 2 trha sy lekh sakhty hain ya to method declear hoea h aughr parametters ko access krna ho to aysy access krain gy
+        
+       1) document.write(laptop.name);
+       2) document.write(laptop["name"]);
+
+difference between Function vs method
+functions and methods are same but its functionality we are understand with a example
+
+simple function we created are as follows:
+
+    function example(){
+                      }  
+when we use this function into one object it is called a method the example are as follows:
+
+   let Object = {
+               name: "",
+               color:",
+the following code is called a method not a munction 
+               hi:function(){   
+                      }
+               }
+  
+
+
+
+
+screen recorder video link
+video audio recorder of javascript 
+https://www.youtube.com/watch?v=Y8o81exmm1Y
+https://www.youtube.com/watch?v=ulRGedt-AcQ
+https://www.youtube.com/watch?v=jyAjUxgbu5Y&list=PL4I5P4_eZrVE40w62jz3p7oqkHfoDv2Oz
+https://www.youtube.com/watch?v=dbrez37HlJM&list=PL4I5P4_eZrVE40w62jz3p7oqkHfoDv2Oz&index=5
+https://www.youtube.com/watch?v=XAFWag-_FGM&list=PL4I5P4_eZrVE40w62jz3p7oqkHfoDv2Oz&index=20
+https://www.youtube.com/watch?v=4BTrSKMhiao&list=PL4I5P4_eZrVE40w62jz3p7oqkHfoDv2Oz&index=21
+
+
+
+
+shape divider
